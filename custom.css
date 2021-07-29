@@ -1,0 +1,128 @@
+/*-------------------- google fonts ------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header section  */
+
+.h-bg {
+    background-color: #264653;
+}
+
+.btn-orange {
+    background-color: #E76F51;
+}
+
+.purchase-size {
+    padding: .6rem 2.8rem;
+}
+
+
+/* Feature bike section  */
+
+.c-orange {
+    color: #E76F51;
+}
+
+.t-gray {
+    color: #E0E0E0;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+
+/* Client section and latest news section */
+
+.star-color {
+    color: #E77C40;
+}
+
+.name-color-w {
+    color: #23A6F0;
+    font-weight: 600;
+}
+
+.client-text-color {
+    color: #6C6C6C;
+}
+
+.shadaow-low {
+    box-shadow: 0px 0px 3px 0px rgb(212, 212, 212);
+}
+
+.btn-orange-border {
+    border: 1px #E76F51 solid;
+}
+
+.btn-text {
+    color: #E76F51;
+}
+
+.btn-size {
+    padding: 1rem 2rem;
+}
+
+
+/* Footer section  */
+
+.bg-footer {
+    background-color: #0B0D17;
+}
+
+.footer-font {
+    font-size: 18px;
+}
+
+.play-font {
+    font-size: 10px;
+}
+
+.f-heignt {
+    height: 280px;
+}
+
+.play-button {
+    background-color: #000000, 100%;
+    border: 1px white solid;
+    border-radius: 15px;
+    color: white;
+    width: 30%;
+}
+
+.gray-copy {
+    color: #D9DBE1;
+}
+
+
+/* Meadia query section  */
+
+@media only screen and (min-width:992px) {
+    .w-lg-75 {
+        width: 75%
+    }
+    .fs-lg {
+        font-size: 48px;
+    }
+    .hr-custom {
+        margin-top: 2px;
+        border: #ff3300 1px solid;
+        width: 58.5px;
+        position: relative;
+        top: 0;
+        left: 180px;
+    }
+}
+
+@media only screen and (max-width:688px) {
+    .fs-sm {
+        font-size: 32px;
+    }
+    .width-play {
+        width: 100%;
+    }
+}
